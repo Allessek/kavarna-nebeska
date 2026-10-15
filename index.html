@@ -1,0 +1,1171 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kavárna Nebeská</title>
+<meta name="description" content="Kavárna Nebeská — kavárna a cukrárna v centru Roudnice nad Labem. Výběrová káva Café Reserva, domácí dorty a zákusky pečené každý den, snídaně, palačinky a vafle." />
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Kavárna Nebeská" />
+<meta property="og:title" content="Kavárna Nebeská — kavárna & cukrárna v Roudnici nad Labem" />
+<meta property="og:description" content="Výběrová káva Café Reserva, domácí dorty a zákusky pečené každý den. Otevřeno Po–Pá 7:45–18:00, So 9:00–18:00." />
+<meta property="og:image" content="images/interior-hero.jpg" />
+<meta property="og:image:width" content="2048" />
+<meta property="og:image:height" content="1532" />
+<meta property="og:locale" content="cs_CZ" />
+<meta property="og:url" content="https://kavarnanebeska.cz/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Kavárna Nebeská — kavárna & cukrárna v Roudnici nad Labem" />
+<meta name="twitter:description" content="Výběrová káva Café Reserva, domácí dorty a zákusky pečené každý den v srdci Roudnice nad Labem." />
+<meta name="twitter:image" content="images/interior-hero.jpg" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CafeOrCoffeeShop",
+  "name": "Kavárna Nebeská",
+  "image": "images/interior-hero.jpg",
+  "telephone": "+420607759870",
+  "email": "kavarnanebeska@seznam.cz",
+  "priceRange": "1–400 Kč",
+  "servesCuisine": "Káva, čaje, domácí limonády, dorty a zákusky, snídaně",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Karla Jeřábka 1428",
+    "addressLocality": "Roudnice nad Labem",
+    "postalCode": "413 01",
+    "addressCountry": "CZ"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 50.4229467, "longitude": 14.2542818 },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "07:45", "closes": "18:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday"], "opens": "09:00", "closes": "18:00" }
+  ],
+  "sameAs": ["https://www.facebook.com/kavarnanebeska/", "https://www.instagram.com/kavarna_nebeska/"],
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.6", "reviewCount": "87", "bestRating": "5" }
+}
+</script>
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%B8%3C/text%3E%3C/svg%3E" />
+<meta name="theme-color" content="#fdf9f8" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#1b1215" media="(prefers-color-scheme: dark)" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Dancing+Script:wght@500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#fdf9f8;
+    --bg-raised:#fbedf1;
+    --surface:#ffffff;
+    --ink:#33272c;
+    --ink-dim:#8c7880;
+    --pink:#c97a98;
+    --pink-bright:#e0a8c0;
+    --pink-deep:#a3557a;
+    --rose:#a84a63;
+    --rose-bright:#c96e85;
+    --sage:#7c9473;
+    --sage-bright:#94ab86;
+    --gold:#c39a52;
+    --rope:#c9a686;
+    --line:rgba(51,39,44,0.13);
+    --line-strong:rgba(51,39,44,0.24);
+    --shadow: 0 26px 54px -28px rgba(130,50,85,0.38);
+    --status-open:#33c759;
+    --status-closed:#ef4444;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#1b1215; --bg-raised:#251a1e; --surface:#20161a;
+      --ink:#f8ecf0; --ink-dim:#c3a7b0;
+      --pink:#eaa5c2; --pink-bright:#f3c2d8; --pink-deep:#f0b4cf;
+      --rose:#e58ba0; --rose-bright:#f0abbc;
+      --sage:#a9c39a; --sage-bright:#bfd6b1; --gold:#dcb56e; --rope:#b5926e;
+      --line:rgba(248,236,240,0.14); --line-strong:rgba(248,236,240,0.24);
+      --shadow: 0 30px 60px -28px rgba(0,0,0,0.6);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#1b1215; --bg-raised:#251a1e; --surface:#20161a;
+    --ink:#f8ecf0; --ink-dim:#c3a7b0;
+    --pink:#eaa5c2; --pink-bright:#f3c2d8; --pink-deep:#f0b4cf;
+    --rose:#e58ba0; --rose-bright:#f0abbc;
+    --sage:#a9c39a; --sage-bright:#bfd6b1; --gold:#dcb56e; --rope:#b5926e;
+    --line:rgba(248,236,240,0.14); --line-strong:rgba(248,236,240,0.24);
+    --shadow: 0 30px 60px -28px rgba(0,0,0,0.6);
+  }
+
+  *{ box-sizing:border-box; }
+  html{ scroll-behavior:smooth; }
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior:auto; }
+    *{ animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important; }
+  }
+  body{ margin:0; background:var(--bg); color:var(--ink); font-family:'Jost', ui-sans-serif, system-ui, sans-serif; -webkit-font-smoothing:antialiased; }
+  h1,h2,h3{ text-wrap:balance; margin:0; }
+  p{ text-wrap:pretty; margin:0; }
+  a{ color:inherit; }
+  img{ display:block; }
+  .serif{ font-family:'Cormorant Garamond', serif; }
+  .script{ font-family:'Dancing Script', cursive; }
+  ::selection{ background:var(--pink); color:#fff; }
+  .wrap{ max-width:1180px; margin:0 auto; padding-left:clamp(20px,5vw,56px); padding-right:clamp(20px,5vw,56px); }
+  section{ padding:clamp(56px,9vw,104px) 0; position:relative; }
+
+  .reveal{ opacity:0; transform:translateY(20px); transition:opacity .7s cubic-bezier(.16,1,.3,1), transform .7s cubic-bezier(.16,1,.3,1); }
+  .reveal.in-view{ opacity:1; transform:translateY(0); }
+
+  /* ================= botanical line-art library ================= */
+  .bloom-mark{ fill:none; stroke:currentColor; stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round; }
+  .bloom-fill{ fill:currentColor; stroke:none; }
+
+  /* mini 4-petal blossom used as bullets / border dots */
+  .mini-bloom{ width:1em; height:1em; display:inline-block; vertical-align:-0.15em; }
+
+  /* ================= floral border strip (top & footer) ================= */
+  .floral-strip{
+    height:22px; width:100%;
+    background-repeat:repeat-x; background-position:center; background-size:64px 22px;
+    opacity:0.7;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='22' viewBox='0 0 64 22'%3E%3Cg fill='none' stroke='%23c97a98' stroke-width='1.3' stroke-linecap='round'%3E%3Cpath d='M0 11 Q16 -2 32 11 T64 11'/%3E%3Cg transform='translate(16 5)'%3E%3Ccircle cx='0' cy='-2.4' r='1.6'/%3E%3Ccircle cx='0' cy='2.4' r='1.6'/%3E%3Ccircle cx='-2.4' cy='0' r='1.6'/%3E%3Ccircle cx='2.4' cy='0' r='1.6'/%3E%3Ccircle cx='0' cy='0' r='1.1' fill='%23c97a98' stroke='none'/%3E%3C/g%3E%3Cg transform='translate(48 5)'%3E%3Ccircle cx='0' cy='-2.4' r='1.6'/%3E%3Ccircle cx='0' cy='2.4' r='1.6'/%3E%3Ccircle cx='-2.4' cy='0' r='1.6'/%3E%3Ccircle cx='2.4' cy='0' r='1.6'/%3E%3Ccircle cx='0' cy='0' r='1.1' fill='%23c97a98' stroke='none'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]) .floral-strip{
+      background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='22' viewBox='0 0 64 22'%3E%3Cg fill='none' stroke='%23eaa5c2' stroke-width='1.3' stroke-linecap='round'%3E%3Cpath d='M0 11 Q16 -2 32 11 T64 11'/%3E%3Cg transform='translate(16 5)'%3E%3Ccircle cx='0' cy='-2.4' r='1.6'/%3E%3Ccircle cx='0' cy='2.4' r='1.6'/%3E%3Ccircle cx='-2.4' cy='0' r='1.6'/%3E%3Ccircle cx='2.4' cy='0' r='1.6'/%3E%3Ccircle cx='0' cy='0' r='1.1' fill='%23eaa5c2' stroke='none'/%3E%3C/g%3E%3Cg transform='translate(48 5)'%3E%3Ccircle cx='0' cy='-2.4' r='1.6'/%3E%3Ccircle cx='0' cy='2.4' r='1.6'/%3E%3Ccircle cx='-2.4' cy='0' r='1.6'/%3E%3Ccircle cx='2.4' cy='0' r='1.6'/%3E%3Ccircle cx='0' cy='0' r='1.1' fill='%23eaa5c2' stroke='none'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+  }
+
+  /* ================= wave divider ================= */
+  .wave{ position:relative; line-height:0; width:100%; overflow:hidden; }
+  .wave svg{ display:block; width:100%; height:clamp(30px,5vw,56px); }
+  .wave.to-bg path{ fill:var(--bg); }
+  .wave.to-raised path{ fill:var(--bg-raised); }
+  .wave.to-surface path{ fill:var(--surface); }
+  .wave .dots{ position:absolute; inset:0; display:flex; align-items:center; justify-content:space-evenly; padding:0 12%; pointer-events:none; }
+  .wave .dots svg{ width:12px; height:12px; color:var(--pink-deep); opacity:0.55; }
+  .wave .dots svg:nth-child(2){ color:var(--sage-bright); }
+  .wave .dots svg:nth-child(3){ color:var(--gold); }
+  @media (max-width:640px){ .wave .dots{ display:none; } }
+
+  /* ---------- topbar ---------- */
+  .topbar-wrap{ position:sticky; top:0; z-index:40; }
+  .topbar{
+    display:flex; align-items:center; justify-content:space-between; gap:16px;
+    padding:14px clamp(20px,5vw,56px);
+    background:color-mix(in srgb, var(--bg) 86%, transparent);
+    backdrop-filter:blur(10px);
+    transition:padding .3s ease, box-shadow .3s ease, background .3s ease;
+  }
+  .topbar-wrap.scrolled .topbar{ padding-top:10px; padding-bottom:10px; background:color-mix(in srgb, var(--bg) 97%, transparent); box-shadow:0 8px 20px -14px rgba(51,39,44,0.35); }
+  .topbar-wrap .floral-strip{ background:var(--surface); }
+  #nabidka, #atmosfera, #recenze, #kontakt{ scroll-margin-top:96px; }
+  .brand{ display:flex; align-items:center; gap:10px; text-decoration:none; }
+  .brand img{ width:40px; height:40px; border-radius:50%; object-fit:cover; flex:none; border:1px solid var(--line); }
+  .brand span{ font-family:'Cormorant Garamond',serif; font-weight:600; font-size:20px; letter-spacing:0.01em; }
+  .topbar nav{ display:flex; align-items:center; gap:clamp(14px,2.6vw,28px); }
+  .topbar nav a{ font-size:12px; letter-spacing:0.09em; text-transform:uppercase; text-decoration:none; color:var(--ink-dim); transition:color .15s ease; }
+  .topbar nav a:hover, .topbar nav a:focus-visible{ color:var(--pink-deep); }
+  .topbar .status{ display:inline-flex; align-items:center; gap:7px; font-size:11px; letter-spacing:0.06em; text-transform:uppercase; color:var(--ink-dim); white-space:nowrap; }
+  .topbar .status .dot{ width:8px; height:8px; border-radius:50%; background:var(--ink-dim); flex:none; }
+  .topbar .status.open .dot{ background:var(--status-open); box-shadow:0 0 0 3px color-mix(in srgb, var(--status-open) 30%, transparent); animation:pulse-open 2.2s ease-in-out infinite; }
+  .topbar .status.closed .dot{ background:var(--status-closed); box-shadow:0 0 0 3px color-mix(in srgb, var(--status-closed) 25%, transparent); }
+  @media (max-width:900px){ .topbar nav a:not(.ig-link){ display:none; } .topbar .status{ display:none; } }
+
+  @keyframes pulse-open{ 0%,100%{ box-shadow:0 0 0 3px color-mix(in srgb, var(--status-open) 30%, transparent), 0 0 8px 1px color-mix(in srgb, var(--status-open) 60%, transparent); } 50%{ box-shadow:0 0 0 6px color-mix(in srgb, var(--status-open) 16%, transparent), 0 0 14px 3px color-mix(in srgb, var(--status-open) 85%, transparent); } }
+  @keyframes pulse-closed{ 0%,100%{ box-shadow:0 0 0 3px color-mix(in srgb, var(--status-closed) 28%, transparent), 0 0 8px 1px color-mix(in srgb, var(--status-closed) 55%, transparent); } 50%{ box-shadow:0 0 0 6px color-mix(in srgb, var(--status-closed) 14%, transparent), 0 0 14px 3px color-mix(in srgb, var(--status-closed) 75%, transparent); } }
+
+  .pill{ display:inline-flex; align-items:center; gap:8px; padding:8px 14px 8px 10px; border-radius:999px; background:var(--surface); border:1px solid var(--line-strong); font-size:11.5px; letter-spacing:0.06em; text-transform:uppercase; font-weight:600; color:var(--ink); }
+  .pill .dot{ width:9px; height:9px; border-radius:50%; flex:none; background:var(--ink-dim); }
+  .pill.open .dot{ background:var(--status-open); animation:pulse-open 2.2s ease-in-out infinite; }
+  .pill.closed .dot{ background:var(--status-closed); animation:pulse-closed 2.2s ease-in-out infinite; }
+  .pill .hint{ font-weight:400; text-transform:none; letter-spacing:0; opacity:0.75; font-size:11px; }
+  .weather-pill[hidden]{ display:none; }
+
+  /* ---------- hero: split composition ---------- */
+  .hero{ background:linear-gradient(180deg, var(--bg) 0%, var(--bg-raised) 100%); overflow:hidden; }
+  .hero-grid{
+    display:grid; grid-template-columns:1.05fr 0.95fr; align-items:center;
+    gap:clamp(20px,4vw,48px);
+    max-width:1280px; margin:0 auto; padding:clamp(30px,6vw,54px) clamp(20px,5vw,56px) clamp(50px,7vw,70px);
+  }
+  .hero-copy{ position:relative; z-index:2; }
+  .hero-eyebrow{ display:inline-flex; align-items:center; gap:10px; font-size:11.5px; letter-spacing:0.24em; text-transform:uppercase; color:var(--rose); font-weight:600; }
+  .hero-eyebrow::before{ content:""; width:22px; height:1px; background:var(--rose); }
+  .hero-lockup{ margin-top:8px; line-height:0.82; }
+  .hero-hello{ display:block; font-family:'Dancing Script',cursive; font-size:clamp(34px,4.6vw,54px); color:var(--pink-deep); line-height:1; margin-left:4px; }
+  .hero h1{ margin-top:-6px; font-family:'Cormorant Garamond',serif; font-weight:700; text-transform:uppercase; letter-spacing:-0.01em; font-size:clamp(54px,8.6vw,108px); line-height:0.92; color:var(--ink); }
+  .hero-tag{ margin-top:12px; font-family:'Cormorant Garamond',serif; font-style:italic; font-weight:500; font-size:clamp(19px,2.1vw,24px); color:var(--pink-deep); max-width:30ch; }
+  .hero-lead{ margin-top:20px; max-width:50ch; font-size:15.5px; line-height:1.75; color:var(--ink-dim); }
+  .hero-pills{ margin-top:24px; display:flex; flex-wrap:wrap; gap:10px; }
+  .hero-ctas{ margin-top:26px; display:flex; flex-wrap:wrap; gap:14px; }
+  .hero-badges{ margin-top:22px; display:flex; flex-wrap:wrap; gap:9px; }
+  .badge{ display:inline-flex; align-items:center; gap:6px; font-size:12px; color:var(--pink-deep); padding:7px 13px 7px 10px; border-radius:0 14px 0 14px; border:1px solid color-mix(in srgb, var(--pink) 55%, transparent); background:color-mix(in srgb, var(--pink) 16%, var(--surface)); }
+  .badge svg{ width:14px; height:14px; color:var(--pink-deep); flex:none; }
+  a.badge{ text-decoration:none; cursor:pointer; transition:background .15s ease, border-color .15s ease, color .15s ease; }
+  a.badge:hover, a.badge:focus-visible{ background:var(--pink-deep); border-color:var(--pink-deep); color:#fff8fb; }
+  a.badge:hover svg, a.badge:focus-visible svg{ color:#fff8fb; }
+
+  .btn{ display:inline-flex; align-items:center; gap:9px; padding:14px 26px; border-radius:999px; font-size:12.5px; letter-spacing:0.08em; text-transform:uppercase; font-weight:600; text-decoration:none; white-space:nowrap; background:var(--pink-deep); color:#fff8fb; border:1px solid var(--pink-deep); transition:transform .15s ease, background .15s ease, box-shadow .25s ease; }
+  .btn:hover{ background:var(--pink-bright); border-color:var(--pink-bright); transform:translateY(-2px); box-shadow:0 16px 30px -16px color-mix(in srgb, var(--pink-bright) 60%, transparent); }
+  .btn:focus-visible{ outline:2px solid var(--pink-bright); outline-offset:3px; }
+  .btn.ghost{ background:transparent; color:var(--ink); border-color:var(--line-strong); }
+  .btn.ghost:hover{ background:var(--surface); border-color:var(--pink-deep); color:var(--pink-deep); box-shadow:none; }
+
+  /* hero right: arched photo + bouquet */
+  .hero-art{ position:relative; z-index:1; display:flex; justify-content:center; }
+  .arch-frame{
+    position:relative; width:min(88%,380px); aspect-ratio:3/4.1;
+    border-radius:50% 50% 10px 10px / 34% 34% 10px 10px;
+    overflow:hidden; box-shadow:var(--shadow); border:6px solid var(--surface);
+    outline:1px solid var(--line);
+  }
+  .arch-frame img{ width:100%; height:100%; object-fit:cover; }
+  .hero-bouquet{ position:absolute; z-index:3; color:var(--pink-deep); pointer-events:none; }
+  .hero-bouquet.b1{ top:-8%; left:-14%; width:clamp(70px,12vw,120px); transform:rotate(-8deg); }
+  .hero-bouquet.b2{ bottom:2%; right:-12%; width:clamp(60px,10vw,96px); color:var(--rose); transform:rotate(10deg) scaleX(-1); }
+  .hero-bouquet svg{ width:100%; height:auto; overflow:visible; }
+
+  /* ---------- sparkles around hero photo ---------- */
+  @keyframes sparkle-twinkle{
+    0%, 100%{ opacity:0; transform:scale(0.3) rotate(0deg); }
+    50%{ opacity:1; transform:scale(1) rotate(10deg); }
+  }
+  .hero-sparkle{
+    position:absolute; z-index:4; pointer-events:none;
+    animation-name:sparkle-twinkle; animation-timing-function:ease-in-out; animation-iteration-count:infinite;
+  }
+  .hero-sparkle svg{ display:block; width:100%; height:100%; }
+  .hero-sparkle.gold{ color:var(--gold); }
+  .hero-sparkle.pink{ color:var(--pink-bright); }
+  .hero-sparkle.deep{ color:var(--pink-deep); }
+  @media (prefers-reduced-motion: reduce){ .hero-sparkle{ animation:none; opacity:0.55; } }
+
+  @media (max-width:900px){
+    .hero-grid{ grid-template-columns:1fr; }
+    .hero-art{ order:-1; margin-bottom:8px; }
+    .arch-frame{ width:min(70%,300px); }
+  }
+
+  /* ---------- photo clothesline ---------- */
+  .photo-line{ position:relative; max-width:1180px; margin:0 auto; padding:54px 30px 24px; height:238px; }
+  .photo-line svg.rope{ position:absolute; top:8px; left:0; width:100%; height:66px; color:var(--rope); pointer-events:none; }
+  .photo-line svg.rope path{ fill:none; stroke:currentColor; stroke-width:2.5; stroke-linecap:round; }
+  .hang{ position:absolute; display:block; width:118px; text-decoration:none; }
+  .hang .clip{ position:absolute; top:-9px; left:50%; transform:translateX(-50%); width:13px; height:19px; color:var(--rope); z-index:2; filter:drop-shadow(0 2px 2px rgba(0,0,0,0.25)); }
+  .hang .frame{ display:block; background:#fff8fb; padding:6px 6px 14px; box-shadow:0 16px 28px -16px rgba(60,20,35,0.4); transition:transform .3s ease, box-shadow .3s ease; }
+  .hang .frame img{ display:block; width:100%; aspect-ratio:1/1; object-fit:cover; }
+  .hang:hover .frame{ transform:translateY(-5px) scale(1.03); box-shadow:0 22px 36px -16px rgba(60,20,35,0.5); }
+  .hang.h1{ left:1%; top:38px; transform:rotate(-6deg); }
+  .hang.h2{ left:21%; top:6px; transform:rotate(4deg); }
+  .hang.h3{ left:41%; top:44px; transform:rotate(-4deg); }
+  .hang.h4{ left:62%; top:10px; transform:rotate(5deg); }
+  .hang.h5{ left:83%; top:40px; transform:rotate(-5deg); }
+  @media (max-width:760px){
+    .photo-line{ display:flex; gap:16px; overflow-x:auto; height:auto; padding:36px 20px 14px; }
+    .photo-line svg.rope{ display:none; }
+    .hang{ position:static; flex:none; width:104px; transform:none !important; }
+    .hang:nth-child(odd){ margin-top:0; }
+    .hang:nth-child(even){ margin-top:18px; }
+  }
+
+  /* ---------- pill quick-nav band ---------- */
+  .pill-nav-band{ background:var(--pink-deep); padding:18px clamp(20px,5vw,56px); }
+  .pill-nav-row{ max-width:1180px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content:center; gap:12px; }
+  .pill-nav-row a{ text-decoration:none; color:#fff8fb; border:1px solid rgba(255,255,255,0.55); padding:9px 22px; border-radius:999px; font-size:11.5px; letter-spacing:0.12em; text-transform:uppercase; font-weight:600; transition:background .15s ease, color .15s ease; }
+  .pill-nav-row a:hover{ background:#fff8fb; color:var(--pink-deep); }
+
+  /* ---------- ghost watermark type ---------- */
+  .ghost-word{ position:absolute; left:50%; top:2%; transform:translateX(-50%); font-family:'Cormorant Garamond',serif; font-weight:700; font-size:clamp(70px,14vw,190px); letter-spacing:0.02em; color:var(--pink-deep); opacity:0.07; white-space:nowrap; pointer-events:none; z-index:0; user-select:none; }
+  .menu-section, .mimochodem{ overflow:hidden; }
+
+  /* ---------- mimochodem: bullets + asymmetric mosaic ---------- */
+  .mimochodem{ background:var(--bg); }
+  .mimo-grid{ display:grid; grid-template-columns:0.9fr 1.1fr; gap:clamp(30px,5vw,60px); align-items:center; }
+  .mimo-copy .kicker{ font-family:'Dancing Script',cursive; font-size:30px; color:var(--pink-deep); display:block; }
+  .mimo-copy h2{ margin-top:6px; font-size:clamp(26px,3.4vw,36px); font-weight:500; max-width:16ch; }
+  .mimo-copy p{ margin-top:14px; color:var(--ink-dim); font-size:15.5px; line-height:1.7; max-width:44ch; }
+  .check-list{ margin-top:22px; display:grid; grid-template-columns:1fr 1fr; gap:10px 18px; padding:0; }
+  .check-list li{ list-style:none; display:flex; align-items:flex-start; gap:9px; font-size:14px; color:var(--ink); }
+  .check-list svg{ width:16px; height:16px; color:var(--sage-bright); flex:none; margin-top:2px; }
+  .mosaic{ display:grid; grid-template-columns:1.2fr 1fr; grid-template-rows:1fr 1fr; gap:14px; height:clamp(300px,32vw,420px); }
+  .mosaic a{ display:block; overflow:hidden; border-radius:6px; box-shadow:var(--shadow); }
+  .mosaic img{ width:100%; height:100%; object-fit:cover; transition:transform .5s ease; }
+  .mosaic a:hover img{ transform:scale(1.06); }
+  .mosaic .m1{ grid-row:1/3; grid-column:1; }
+  .mosaic .m2{ grid-row:1; grid-column:2; }
+  .mosaic .m3{ grid-row:2; grid-column:2; }
+  @media (max-width:860px){ .mimo-grid{ grid-template-columns:1fr; } .check-list{ grid-template-columns:1fr; } }
+
+  /* ---------- section basics ---------- */
+  .eyebrow{ display:inline-flex; align-items:center; gap:10px; font-size:11.5px; letter-spacing:0.24em; text-transform:uppercase; color:var(--pink-deep); font-weight:600; }
+  .eyebrow::before{ content:""; width:22px; height:1px; background:var(--pink-deep); }
+  .eyebrow.sage{ color:var(--sage-bright); }
+  .eyebrow.sage::before{ background:var(--sage-bright); }
+  .center{ text-align:center; margin-left:auto; margin-right:auto; }
+
+  /* ---------- crest / o nas ---------- */
+  .manifesto{ background:var(--bg); text-align:center; }
+  .crest{ color:var(--pink-deep); width:min(100%,220px); margin:0 auto; }
+  .crest svg{ width:100%; height:auto; overflow:visible; }
+  .manifesto h2{ margin-top:18px; font-size:clamp(28px,4vw,44px); font-weight:500; max-width:22ch; margin-left:auto; margin-right:auto; }
+  .manifesto p{ margin-top:20px; max-width:60ch; margin-left:auto; margin-right:auto; font-size:clamp(15.5px,1.6vw,17.5px); line-height:1.8; color:var(--ink-dim); }
+  .manifesto p + p{ margin-top:12px; }
+  .manifesto .pull{ margin-top:30px; font-family:'Cormorant Garamond',serif; font-style:italic; font-weight:500; font-size:clamp(21px,2.6vw,28px); line-height:1.4; color:var(--ink); max-width:38ch; margin-left:auto; margin-right:auto; }
+  .manifesto .signoff{ display:block; margin-top:10px; font-family:'Dancing Script',cursive; font-size:22px; color:var(--pink-deep); font-style:normal; }
+
+  /* ---------- menu: printed card + polaroid stack ---------- */
+  .menu-section{ background:var(--bg-raised); }
+  .menu-grid{ position:relative; z-index:1; display:grid; grid-template-columns:1.05fr 0.95fr; gap:clamp(30px,5vw,64px); align-items:center; }
+  .menu-card{ background:var(--pink-deep); color:#fff8fb; border-radius:18px; padding:clamp(30px,4vw,44px); box-shadow:var(--shadow); position:relative; }
+  .menu-card::before{ content:""; position:absolute; inset:10px; border:1px solid rgba(255,248,251,0.35); border-radius:12px; pointer-events:none; }
+  .menu-card .kicker{ font-family:'Dancing Script',cursive; font-size:26px; color:#fbe3ec; text-align:center; display:block; }
+  .menu-card h2{ margin-top:6px; text-align:center; font-size:clamp(24px,3vw,32px); font-weight:500; color:#fff8fb; }
+  .menu-card .sub{ margin-top:10px; text-align:center; font-size:14.5px; color:rgba(255,248,251,0.82); line-height:1.6; }
+  .menu-list{ margin-top:26px; display:flex; flex-direction:column; gap:0; }
+  .menu-row{ display:flex; align-items:baseline; gap:10px; padding:13px 0; border-bottom:1px dashed rgba(255,248,251,0.3); }
+  .menu-row:last-child{ border-bottom:none; }
+  .menu-row svg{ width:15px; height:15px; color:#fff8fb; flex:none; }
+  .menu-row b{ font-family:'Cormorant Garamond',serif; font-size:17.5px; font-weight:600; color:#fff8fb; }
+  .menu-row span{ margin-left:auto; font-size:12.5px; color:rgba(255,248,251,0.78); text-align:right; }
+  .menu-price{ margin-top:24px; text-align:center; }
+  .menu-price .tag{ display:inline-flex; align-items:center; gap:8px; padding:9px 18px; border-radius:999px; border:1px solid rgba(255,248,251,0.45); background:rgba(255,248,251,0.12); font-size:13px; color:#fff8fb; }
+  .menu-price .tag b{ color:#fbe3ec; font-family:'Cormorant Garamond',serif; }
+
+  .polaroid-stack{ position:relative; height:clamp(320px,42vw,440px); }
+  .polaroid{ position:absolute; width:62%; background:#fff; padding:10px 10px 34px; border-radius:4px; box-shadow:0 18px 34px -16px rgba(60,20,35,0.35); }
+  .polaroid img{ width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:2px; }
+  .polaroid figcaption{ margin-top:8px; text-align:center; font-family:'Dancing Script',cursive; font-size:16px; color:#3a2c30; }
+  .polaroid.p1{ left:0; top:6%; transform:rotate(-7deg); z-index:1; }
+  .polaroid.p2{ left:24%; top:0; transform:rotate(4deg); z-index:2; }
+  .polaroid.p3{ left:16%; top:46%; transform:rotate(-3deg); z-index:3; }
+  @media (max-width:900px){ .menu-grid{ grid-template-columns:1fr; } .polaroid-stack{ max-width:380px; margin:0 auto; } }
+
+  /* ---------- z nasi kuchyne : rotated scroll strip ---------- */
+  .kitchen-strip{ background:var(--surface); }
+  .kitchen-head{ max-width:640px; }
+  .kitchen-head h2{ margin-top:12px; font-size:clamp(24px,3.4vw,34px); font-weight:500; }
+  .kitchen-head p{ margin-top:12px; color:var(--ink-dim); font-size:15px; line-height:1.7; }
+
+  /* ---------- infinite spiral gallery ---------- */
+  .spiral-wrap{ margin-top:clamp(30px,4vw,44px); border-radius:22px; overflow:hidden; background:linear-gradient(180deg, var(--bg-raised), var(--surface)); box-shadow:var(--shadow); border:1px solid var(--line); }
+  .infinite-spiral{ position:relative; width:100%; height:min(56vw,420px); min-height:280px; overflow:hidden; isolation:isolate; }
+  .infinite-spiral__stage{ position:absolute; inset:0; transform-style:preserve-3d; }
+  .infinite-spiral__item{
+    position:absolute; top:50%; left:50%; display:block;
+    width:var(--infinite-spiral-card-width); height:var(--infinite-spiral-card-height);
+    overflow:hidden; border:4px solid var(--surface); border-radius:var(--infinite-spiral-card-radius);
+    background:var(--surface); box-shadow:0 16px 32px -16px rgba(60,20,35,0.45);
+    transform-style:preserve-3d; backface-visibility:hidden; will-change:transform, opacity, filter; text-decoration:none;
+  }
+  .infinite-spiral__image{ position:absolute; inset:0; display:block; width:100%; height:100%; object-position:center; user-select:none; }
+  @media (prefers-reduced-motion: reduce){ .infinite-spiral__item{ transition:none; } }
+  @media (max-width:640px){ .infinite-spiral{ height:300px; } }
+
+  /* ---------- atmosphere ---------- */
+  .atmosphere{ background:var(--bg); }
+  .atmo-grid{ display:grid; grid-template-columns:0.85fr 1.15fr; gap:clamp(28px,5vw,64px); align-items:center; }
+  .atmo-frame{ position:relative; }
+  .atmo-frame .arch-frame{ width:100%; max-width:420px; aspect-ratio:4/5; margin:0 auto; }
+  .atmo-copy h2{ font-size:clamp(28px,4vw,40px); font-weight:500; margin-top:14px; max-width:18ch; }
+  .atmo-copy p{ margin-top:18px; font-size:16px; line-height:1.75; color:var(--ink-dim); max-width:52ch; }
+  .atmo-copy p + p{ margin-top:12px; }
+  .wreath{ margin-top:26px; display:flex; flex-wrap:wrap; gap:10px; }
+  .leaf-tag{ display:inline-flex; align-items:center; gap:7px; font-size:12px; letter-spacing:0.02em; padding:9px 15px 9px 12px; border-radius:0 16px 0 16px; border:1px solid color-mix(in srgb, var(--pink) 55%, transparent); color:var(--pink-deep); background:color-mix(in srgb, var(--pink) 16%, var(--surface)); }
+  .leaf-tag svg{ width:13px; height:13px; color:var(--pink-deep); }
+  .note{ margin-top:24px; font-size:13px; line-height:1.6; color:var(--ink-dim); padding:14px 16px; border-left:2px solid var(--sage-bright); background:var(--bg-raised); border-radius:0 8px 8px 0; max-width:50ch; }
+  @media (max-width:860px){ .atmo-grid{ grid-template-columns:1fr; } .atmo-frame .arch-frame{ max-width:320px; } }
+
+  /* ---------- reviews: staggered garden path ---------- */
+  .reviews{ background:var(--bg-raised); }
+  .reviews-head{ display:flex; flex-wrap:wrap; align-items:baseline; justify-content:space-between; gap:16px; }
+  .reviews-head h2{ font-size:clamp(28px,4vw,40px); font-weight:500; }
+  .rating-badges{ display:flex; gap:20px; flex-wrap:wrap; }
+  .rating-badge{ font-size:13px; color:var(--ink-dim); }
+  .rating-badge b{ color:var(--ink); font-family:'Cormorant Garamond',serif; font-size:18px; font-weight:600; }
+  .review-grid{ margin-top:clamp(40px,5vw,58px); display:grid; grid-template-columns:repeat(2,1fr); gap:24px 20px; }
+  .review-card{ background:var(--surface); border-radius:4px 20px 4px 20px; padding:30px 26px 24px; position:relative; box-shadow:0 20px 40px -26px rgba(130,50,85,0.3); }
+  .review-card .quote-mark{ position:absolute; top:-16px; left:22px; width:34px; height:34px; color:var(--pink-deep); background:var(--surface); border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 6px 14px -6px rgba(130,50,85,0.4); }
+  .review-card .quote-mark svg{ width:16px; height:16px; }
+  .review-card .stars{ color:var(--pink-deep); font-size:13px; letter-spacing:0.15em; }
+  .review-card p{ margin-top:14px; font-family:'Cormorant Garamond',serif; font-style:italic; font-weight:400; font-size:18px; line-height:1.5; color:var(--ink); }
+  .review-card .who{ margin-top:16px; font-size:12px; letter-spacing:0.05em; color:var(--ink-dim); text-transform:uppercase; }
+  .review-grid > .review-card:nth-child(2n){ transform:translateY(26px); }
+  @media (max-width:820px){ .review-grid{ grid-template-columns:1fr; } .review-grid > .review-card:nth-child(2n){ transform:none; } }
+  .review-cta{ margin-top:36px; font-size:14.5px; color:var(--ink-dim); text-align:center; }
+  .review-cta a{ color:var(--pink-deep); text-decoration:none; border-bottom:1px solid currentColor; }
+  .review-cta a:hover{ color:var(--pink-bright); }
+
+  /* ---------- contact ---------- */
+  .contact{ background:var(--surface); }
+  .contact-grid{ display:grid; grid-template-columns:1fr 1fr; gap:clamp(32px,5vw,72px); }
+  .hours-card{ background:var(--pink-deep); border:1px solid var(--pink-deep); border-radius:4px 22px 4px 22px; padding:clamp(28px,4vw,38px); box-shadow:var(--shadow); position:relative; color:#fff8fb; }
+  .hours-card svg.corner{ display:none; }
+  .hours-card h3{ font-family:'Cormorant Garamond',serif; font-weight:600; font-size:21px; color:#fff8fb; }
+  .hours-list{ margin-top:20px; display:flex; flex-direction:column; gap:0; }
+  .hours-row{ display:flex; justify-content:space-between; align-items:center; padding:11px 0; border-bottom:1px dashed rgba(255,248,251,0.32); font-size:14.5px; color:#fbe8f0; }
+  .hours-row:last-child{ border-bottom:none; }
+  .hours-row.today{ color:#fff8fb; font-weight:700; }
+  .hours-row .closed{ color:rgba(255,248,251,0.65); }
+  .hours-photo{ position:absolute; top:-30px; right:28px; width:92px; transform:rotate(7deg); box-shadow:0 16px 30px -14px rgba(20,5,12,0.55); border:5px solid #fff8fb; border-radius:4px; }
+  .hours-photo img{ display:block; width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:1px; }
+  .contact-copy h2{ font-size:clamp(28px,4vw,40px); font-weight:500; margin-top:14px; }
+  .contact-list{ margin-top:26px; display:flex; flex-direction:column; gap:16px; }
+  .contact-list .row{ display:flex; gap:14px; align-items:flex-start; font-size:15.5px; line-height:1.55; }
+  .contact-list .row svg{ flex:none; margin-top:3px; color:var(--pink-deep); }
+  .contact-list a{ text-decoration:none; border-bottom:1px solid var(--line-strong); transition:border-color .15s ease, color .15s ease; }
+  .contact-list a:hover{ color:var(--pink-deep); border-color:var(--pink-deep); }
+  .map-embed{ margin-top:28px; border-radius:4px 22px 4px 22px; overflow:hidden; border:1px solid var(--line); box-shadow:var(--shadow); aspect-ratio:16/10; max-width:520px; }
+  @media (max-width:820px){ .contact-grid{ grid-template-columns:1fr; } }
+
+  /* ---------- footer ---------- */
+  footer{ background:var(--bg-raised); }
+  footer .floral-strip{ background:var(--bg-raised); }
+  .footer-inner{ padding:30px clamp(20px,5vw,56px); display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px; align-items:center; font-size:12.5px; color:var(--ink-dim); }
+  .footer-inner .brand span{ font-size:15px; }
+  .footer-inner nav{ display:flex; gap:18px; }
+  .footer-inner nav a{ text-decoration:none; color:var(--ink-dim); }
+  .footer-inner nav a:hover{ color:var(--pink-deep); }
+
+  /* ---------- mobile action bar ---------- */
+  .mobile-bar{ display:none; }
+  @media (max-width:760px){
+    body{ padding-bottom:78px; }
+    .mobile-bar{ display:flex; position:fixed; left:0; right:0; bottom:0; z-index:50; gap:8px; background:var(--surface); border-top:1px solid var(--line); padding:10px max(10px, env(safe-area-inset-left)) calc(10px + env(safe-area-inset-bottom)) max(10px, env(safe-area-inset-right)); box-shadow:0 -12px 28px -18px rgba(0,0,0,0.4); }
+    .mobile-bar a{ flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:4px; text-decoration:none; color:var(--ink); font-size:10.5px; letter-spacing:0.03em; text-transform:uppercase; font-weight:700; padding:8px 4px; border-radius:12px; border:1px solid var(--line); }
+    .mobile-bar a.primary{ background:var(--pink-deep); border-color:var(--pink-deep); color:#fff8fb; }
+  }
+
+  /* ---------- back to top ---------- */
+  .back-to-top{
+    position:fixed; right:22px; bottom:28px; z-index:45;
+    width:44px; height:44px; border-radius:50%;
+    background:var(--pink-deep); color:#fff8fb; border:none; cursor:pointer;
+    display:flex; align-items:center; justify-content:center;
+    box-shadow:0 12px 26px -12px rgba(80,20,45,0.55);
+    opacity:0; pointer-events:none; transform:translateY(10px);
+    transition:opacity .25s ease, transform .25s ease, background .15s ease;
+  }
+  .back-to-top.visible{ opacity:1; pointer-events:auto; transform:translateY(0); }
+  .back-to-top:hover, .back-to-top:focus-visible{ background:var(--pink-bright); }
+  @media (max-width:760px){ .back-to-top{ right:16px; bottom:calc(88px + env(safe-area-inset-bottom)); width:40px; height:40px; } }
+</style>
+<noscript><style>.reveal{ opacity:1 !important; transform:none !important; }</style></noscript>
+</head>
+<body>
+
+<div class="topbar-wrap" id="topbar">
+  <div class="topbar">
+    <a class="brand" href="#top">
+      <img src="images/logo.jpg" alt="Kavárna Nebeská" />
+      <span>Kavárna Nebeská</span>
+    </a>
+    <nav>
+      <a href="#nabidka">Nabídka</a>
+      <a href="#atmosfera">Atmosféra</a>
+      <a href="#recenze">Recenze</a>
+      <a href="#kontakt">Kontakt</a>
+      <span class="status" id="statusBadge"><span class="dot"></span><span id="statusText">Otevírací doba</span></span>
+      <a class="ig-link" href="https://www.instagram.com/kavarna_nebeska/" target="_blank" rel="noopener">Instagram</a>
+    </nav>
+  </div>
+  <div class="floral-strip"></div>
+</div>
+
+<header class="hero" id="top">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <span class="hero-eyebrow reveal in-view" style="transition-delay:.05s">Kavárna &amp; cukrárna · Roudnice nad Labem</span>
+      <div class="hero-lockup">
+        <span class="hero-hello script reveal in-view" style="transition-delay:.08s">Kavárna</span>
+        <h1 class="reveal in-view" style="transition-delay:.1s">Nebeská</h1>
+      </div>
+      <p class="hero-tag reveal in-view" style="transition-delay:.16s">Bílé stěny, čerstvé květiny a nebeský kousek dortu ke kávě.</p>
+      <p class="hero-lead reveal in-view" style="transition-delay:.22s">
+        Kávu Café Reserva u nás umíme uvařit se zavřenýma očima, dorty a zákusky
+        pečeme každé ráno tak, aby do oběda nic nezbylo. Kdo přijde na snídani,
+        dá si klidně i slanou palačinku k vafli — a kdo shání dort na oslavu,
+        stačí zavolat pár dní dopředu a domluvíme se.
+      </p>
+      <div class="hero-pills reveal in-view" style="transition-delay:.28s">
+        <span class="pill" id="heroStatusBadge"><span class="dot"></span><span id="heroStatusText">Otevírací doba</span><span class="hint">· Po–Pá 7:45–18:00 · So 9–18:00</span></span>
+        <span class="pill weather-pill" id="weatherPill" hidden><span id="weatherIcon">🌤️</span><span id="weatherText"></span></span>
+      </div>
+      <div class="hero-ctas reveal in-view" style="transition-delay:.34s">
+        <a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=50.4229467,14.2542818" target="_blank" rel="noopener">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 22s7-7.1 7-12.5A7 7 0 0 0 5 9.5C5 14.9 12 22 12 22z" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="9.5" r="2.5" stroke="currentColor" stroke-width="2"/></svg>
+          Navigovat
+        </a>
+        <a class="btn ghost" href="tel:+420607759870">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M4 5c0 8.3 6.7 15 15 15l2-4-5-2-2 2c-2-1-4-3-5-5l2-2-2-5-4 1z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          Zavolat
+        </a>
+      </div>
+      <div class="hero-badges reveal in-view" style="transition-delay:.4s">
+        <span class="badge"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3c-3.5 3-5 5.5-5 9a5 5 0 0 0 10 0c0-3.5-1.5-6-5-9Z" stroke="currentColor" stroke-width="1.6"/></svg>Zahrádka</span>
+        <span class="badge"><svg viewBox="0 0 24 24" fill="none"><circle cx="8" cy="18" r="2.4" stroke="currentColor" stroke-width="1.6"/><circle cx="16" cy="18" r="2.4" stroke="currentColor" stroke-width="1.6"/><path d="M8 18V7h6l3 5h1.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Dětské hřiště</span>
+        <a class="badge" href="mailto:kavarnanebeska@seznam.cz?subject=Rezervace%20stolu&amp;body=Dobr%C3%BD%20den%2C%0D%0Ar%C3%A1da%2Fr%C3%A1d%20bych%20si%20rezervovala%2Fal%20stolek%20na%3A%0D%0ADatum%20a%20čas%3A%20%0D%0APočet%20osob%3A%20%0D%0A%0D%0AD%C4%9Bkuji%2C%0D%0A"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="15" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M8 3v4M16 3v4M3 10h18" stroke="currentColor" stroke-width="1.6"/></svg>Rezervace online</a>
+      </div>
+    </div>
+
+    <div class="hero-art reveal in-view" style="transition-delay:.2s">
+      <div class="hero-bouquet b1" aria-hidden="true">
+        <svg viewBox="0 0 60 90">
+          <path class="bloom-mark" d="M30 88 L30 46" />
+          <path class="bloom-mark" d="M30 62 C18 58 14 48 20 40" />
+          <path class="bloom-mark" d="M30 68 C42 64 46 54 40 46" />
+          <path class="bloom-mark" d="M30 46 C16 40 12 24 18 8 C23 18 27 28 30 38 C33 28 37 18 42 8 C48 24 44 40 30 46 Z" />
+          <path class="bloom-mark" d="M30 38 C26 26 24 16 27 6" />
+          <path class="bloom-mark" d="M30 38 C34 26 36 16 33 6" />
+        </svg>
+      </div>
+      <div class="hero-bouquet b2" aria-hidden="true">
+        <svg viewBox="0 0 60 90">
+          <path class="bloom-mark" d="M0,-16 C10,-16 12,-6 4,-2 C12,2 10,12 0,12 C-10,12 -12,2 -4,-2 C-12,-6 -10,-16 0,-16 Z" transform="translate(30,20)"/>
+          <path class="bloom-mark" d="M0,-6 C4,-6 5,-1 0,1 C-5,-1 -4,-6 0,-6 Z" transform="translate(30,20)"/>
+          <path class="bloom-mark" d="M30 32 L30 82" />
+          <path class="bloom-mark" d="M30 48 C20 46 17 38 21 31" />
+          <path class="bloom-mark" d="M30 62 C40 60 43 52 39 45" />
+        </svg>
+      </div>
+      <div class="arch-frame">
+        <img src="images/interior-hero.jpg" alt="Interiér Kavárny Nebeské — bílé stěny, dřevěný nábytek a čerstvé růže na stolech" />
+      </div>
+      <span class="hero-sparkle pink" aria-hidden="true" style="top:2%; left:4%; width:16px; height:16px; animation-duration:2.8s; animation-delay:0s;">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c0 6 2 10 8 12-6 2-8 6-8 12 0-6-2-10-8-12 6-2 8-6 8-12Z"/></svg>
+      </span>
+      <span class="hero-sparkle gold" aria-hidden="true" style="top:16%; right:-4%; width:11px; height:11px; animation-duration:2.3s; animation-delay:.7s;">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c0 6 2 10 8 12-6 2-8 6-8 12 0-6-2-10-8-12 6-2 8-6 8-12Z"/></svg>
+      </span>
+      <span class="hero-sparkle deep" aria-hidden="true" style="top:48%; left:-7%; width:18px; height:18px; animation-duration:3.2s; animation-delay:1.3s;">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c0 6 2 10 8 12-6 2-8 6-8 12 0-6-2-10-8-12 6-2 8-6 8-12Z"/></svg>
+      </span>
+      <span class="hero-sparkle pink" aria-hidden="true" style="bottom:16%; right:4%; width:13px; height:13px; animation-duration:2.6s; animation-delay:.3s;">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c0 6 2 10 8 12-6 2-8 6-8 12 0-6-2-10-8-12 6-2 8-6 8-12Z"/></svg>
+      </span>
+      <span class="hero-sparkle gold" aria-hidden="true" style="bottom:-3%; left:34%; width:10px; height:10px; animation-duration:2.1s; animation-delay:1.8s;">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c0 6 2 10 8 12-6 2-8 6-8 12 0-6-2-10-8-12 6-2 8-6 8-12Z"/></svg>
+      </span>
+      <span class="hero-sparkle deep" aria-hidden="true" style="top:-5%; right:26%; width:15px; height:15px; animation-duration:3s; animation-delay:2.2s;">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c0 6 2 10 8 12-6 2-8 6-8 12 0-6-2-10-8-12 6-2 8-6 8-12Z"/></svg>
+      </span>
+    </div>
+  </div>
+</header>
+
+<div class="photo-line" aria-hidden="true">
+  <svg class="rope" viewBox="0 0 1200 66" preserveAspectRatio="none">
+    <path d="M0,30 C40,20 60,45 85,48 C160,54 260,10 325,18 C400,26 480,58 565,54 C650,50 740,14 818,22 C900,30 1010,56 1069,50 C1110,46 1160,32 1200,34" />
+  </svg>
+  <a class="hang h1" href="#nabidka">
+    <span class="clip"><svg viewBox="0 0 16 26" fill="none"><rect x="1.5" y="1" width="5" height="22" rx="2.4" fill="currentColor"/><rect x="9.5" y="1" width="5" height="22" rx="2.4" fill="currentColor"/><circle cx="8" cy="9" r="2.6" fill="currentColor"/></svg></span>
+    <span class="frame"><img src="images/interior-hero.jpg" alt="" loading="lazy" /></span>
+  </a>
+  <a class="hang h2" href="#nabidka">
+    <span class="clip"><svg viewBox="0 0 16 26" fill="none"><rect x="1.5" y="1" width="5" height="22" rx="2.4" fill="currentColor"/><rect x="9.5" y="1" width="5" height="22" rx="2.4" fill="currentColor"/><circle cx="8" cy="9" r="2.6" fill="currentColor"/></svg></span>
+    <span class="frame"><img src="images/ruzove-koblihy.jpg" alt="" loading="lazy" /></span>
+  </a>
+  <a class="hang h3" href="#nabidka">
+    <span class="clip"><svg viewBox="0 0 16 26" fill="none"><rect x="1.5" y="1" width="5" height="22" rx="2.4" fill="currentColor"/><rect x="9.5" y="1" width="5" height="22" rx="2.4" fill="currentColor"/><circle cx="8" cy="9" r="2.6" fill="currentColor"/></svg></span>
+    <span class="frame"><img src="images/trubicky-tacek.jpg" alt="" loading="lazy" /></span>
+  </a>
+  <a class="hang h4" href="#nabidka">
+    <span class="clip"><svg viewBox="0 0 16 26" fill="none"><rect x="1.5" y="1" width="5" height="22" rx="2.4" fill="currentColor"/><rect x="9.5" y="1" width="5" height="22" rx="2.4" fill="currentColor"/><circle cx="8" cy="9" r="2.6" fill="currentColor"/></svg></span>
+    <span class="frame"><img src="images/jahodovy-pohar.jpg" alt="" loading="lazy" /></span>
+  </a>
+  <a class="hang h5" href="#nabidka">
+    <span class="clip"><svg viewBox="0 0 16 26" fill="none"><rect x="1.5" y="1" width="5" height="22" rx="2.4" fill="currentColor"/><rect x="9.5" y="1" width="5" height="22" rx="2.4" fill="currentColor"/><circle cx="8" cy="9" r="2.6" fill="currentColor"/></svg></span>
+    <span class="frame"><img src="images/dezerty-koblihy-mix.jpg" alt="" loading="lazy" /></span>
+  </a>
+</div>
+
+<div class="pill-nav-band">
+  <div class="pill-nav-row">
+    <a href="#nabidka">Nabídka</a>
+    <a href="#atmosfera">Atmosféra</a>
+    <a href="#recenze">Recenze</a>
+    <a href="#kontakt">Kontakt</a>
+  </div>
+</div>
+
+<div class="wave to-bg"><svg viewBox="0 0 1200 60" preserveAspectRatio="none"><path d="M0,30 C200,58 400,2 600,30 C800,58 1000,2 1200,30 L1200,60 L0,60 Z"/></svg>
+  <div class="dots">
+    <svg viewBox="0 0 24 24"><circle cx="12" cy="9" r="2" fill="currentColor" stroke="none"/><circle cx="12" cy="15" r="2" fill="currentColor" stroke="none"/><circle cx="8" cy="12" r="2" fill="currentColor" stroke="none"/><circle cx="16" cy="12" r="2" fill="currentColor" stroke="none"/></svg>
+    <svg viewBox="0 0 24 24"><circle cx="12" cy="9" r="2" fill="currentColor" stroke="none"/><circle cx="12" cy="15" r="2" fill="currentColor" stroke="none"/><circle cx="8" cy="12" r="2" fill="currentColor" stroke="none"/><circle cx="16" cy="12" r="2" fill="currentColor" stroke="none"/></svg>
+    <svg viewBox="0 0 24 24"><circle cx="12" cy="9" r="2" fill="currentColor" stroke="none"/><circle cx="12" cy="15" r="2" fill="currentColor" stroke="none"/><circle cx="8" cy="12" r="2" fill="currentColor" stroke="none"/><circle cx="16" cy="12" r="2" fill="currentColor" stroke="none"/></svg>
+  </div>
+</div>
+
+<section class="manifesto">
+  <div class="wrap">
+    <div class="crest reveal">
+      <svg viewBox="0 0 200 120">
+        <g transform="translate(38,60)" class="bloom-mark">
+          <path d="M0,-16 C10,-16 12,-6 4,-2 C12,2 10,12 0,12 C-10,12 -12,2 -4,-2 C-12,-6 -10,-16 0,-16 Z"/>
+          <path d="M0,-6 C4,-6 5,-1 0,1 C-5,-1 -4,-6 0,-6 Z"/>
+          <path d="M0 12 L0 40"/>
+          <path d="M0 24 C-8 22 -10 14 -5 10"/>
+        </g>
+        <g transform="translate(100,4)" class="bloom-mark">
+          <path d="M0 96 L0 34"/>
+          <path d="M0 54 C-13 49 -17 38 -9 28"/>
+          <path d="M0 62 C13 57 17 46 9 36"/>
+          <path d="M0 34 C-15 27 -19 9 -12 -10 C-6 1 -2 12 0 24 C2 12 6 1 12 -10 C19 9 15 27 0 34 Z"/>
+          <path d="M0 24 C-4 11 -6 -1 -3 -12"/>
+          <path d="M0 24 C4 11 6 -1 3 -12"/>
+        </g>
+        <g transform="translate(162,60) scale(-1,1)" class="bloom-mark">
+          <path d="M0,-16 C10,-16 12,-6 4,-2 C12,2 10,12 0,12 C-10,12 -12,2 -4,-2 C-12,-6 -10,-16 0,-16 Z"/>
+          <path d="M0,-6 C4,-6 5,-1 0,1 C-5,-1 -4,-6 0,-6 Z"/>
+          <path d="M0 12 L0 40"/>
+          <path d="M0 24 C-8 22 -10 14 -5 10"/>
+        </g>
+      </svg>
+    </div>
+    <span class="eyebrow center reveal" style="transition-delay:.05s; justify-content:center;">O nás</span>
+    <h2 class="reveal" style="transition-delay:.1s;">Kavárna naproti škole, která v poledne pořádně ožije.</h2>
+    <p class="reveal" style="transition-delay:.14s;">Nejsme sterilní podnik, kde je slyšet vlastní myšlenky. Přes ulici
+    je základní škola, a když ve dvanáct pustí děti, je tu chvíli
+    veselo — bereme to jako daň za to, že sedíme v centru města, a ne
+    někde na okraji za kruháčem. Zbytek dne je tu ale klid, jaký byste
+    tady možná nečekali.</p>
+    <p class="reveal" style="transition-delay:.18s;">Zákusky, koláčky a moučníky si pečeme sami, přímo u nás — a co se
+    nesní do večera, druhý den už nenabízíme. Umíme i dort na zakázku
+    přesně podle přání, stačí zavolat pár dní předem a domluvit se,
+    co a na kdy potřebujete.</p>
+    <div class="pull reveal" style="transition-delay:.22s;">
+      „Kafe, dort a chvilka, kdy nikam nespěcháte.“
+      <span class="signoff">s láskou, Kavárna Nebeská</span>
+    </div>
+  </div>
+</section>
+
+<div class="wave to-raised"><svg viewBox="0 0 1200 60" preserveAspectRatio="none"><path d="M0,30 C200,2 400,58 600,30 C800,2 1000,58 1200,30 L1200,60 L0,60 Z"/></svg></div>
+
+<section class="menu-section" id="nabidka">
+  <span class="ghost-word" aria-hidden="true">Nebeská</span>
+  <div class="wrap menu-grid">
+    <div class="menu-card reveal">
+      <span class="kicker script">Naše nabídka</span>
+      <h2>Co u nás najdete</h2>
+      <p class="sub">Výběrová káva Café Reserva, domácí dorty a chuťovky pečené každý den.</p>
+      <div class="menu-list">
+        <div class="menu-row"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/></svg><b>Káva Café Reserva</b><span>espresso, cappuccino, latte…</span></div>
+        <div class="menu-row"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/></svg><b>Čaje &amp; domácí limonády</b><span>sezónní příchutě</span></div>
+        <div class="menu-row"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/></svg><b>Snídaně, palačinky &amp; vafle</b><span>sladké i slané</span></div>
+        <div class="menu-row"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/></svg><b>Dorty &amp; zákusky</b><span>pečeme sami, denně čerstvé</span></div>
+        <div class="menu-row"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/></svg><b>Dort na zakázku</b><span>na objednávku předem</span></div>
+        <div class="menu-row"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/></svg><b>Koktejly &amp; víno</b><span>k odpolednímu posezení</span></div>
+      </div>
+      <div class="menu-price"><span class="tag">💶 Orientační útrata: <b>1–400 Kč</b> / osoba</span></div>
+    </div>
+
+    <div class="polaroid-stack reveal" style="transition-delay:.1s">
+      <figure class="polaroid p1">
+        <img src="images/trubicky-tacek.jpg" alt="Domácí trubičky se šlehačkou" loading="lazy" />
+        <figcaption>domácí trubičky</figcaption>
+      </figure>
+      <figure class="polaroid p2">
+        <img src="images/ruzove-koblihy.jpg" alt="Růžově glazované koblihy" loading="lazy" />
+        <figcaption>sezónní speciality</figcaption>
+      </figure>
+      <figure class="polaroid p3">
+        <img src="images/srdicka-tartaletky.jpg" alt="Čokoládové tartaletky ve tvaru srdíčka" loading="lazy" />
+        <figcaption>srdíčkové tartaletky</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="kitchen-strip">
+  <div class="wrap">
+    <div class="kitchen-head reveal">
+      <span class="eyebrow sage">Přímo z naší kuchyně</span>
+      <h2>Co jsme upekly tento týden.</h2>
+      <p>Otočte kolečkem myši nebo přetáhněte prstem — galerie se stočí podle vás. Nabídka dortů a zákusků se mění podle sezóny, sledujte nás na Instagramu, ať vám nic sladkého neuteče.</p>
+    </div>
+    <div class="spiral-wrap reveal" style="transition-delay:.1s">
+      <div class="infinite-spiral" id="spiralGallery"></div>
+    </div>
+  </div>
+</section>
+
+<div class="wave to-bg"><svg viewBox="0 0 1200 60" preserveAspectRatio="none"><path d="M0,30 C200,58 400,2 600,30 C800,58 1000,2 1200,30 L1200,60 L0,60 Z"/></svg></div>
+
+<section class="mimochodem">
+  <div class="wrap mimo-grid">
+    <div class="mimo-copy reveal">
+      <span class="kicker script">Mimochodem…</span>
+      <h2>U nás v kavárně ještě najdete</h2>
+      <p>Kromě kávy a dortů řešíme i věci, na které se snadno zapomíná,
+      dokud vám právě nechybí.</p>
+      <ul class="check-list">
+        <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Zahrádku k posezení venku</li>
+        <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Dětské hřiště hned vedle</li>
+        <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Domácí dezerty pečené denně</li>
+        <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Psy i kočárky vítáme s úsměvem</li>
+        <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Dort na zakázku podle přání</li>
+        <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Rezervaci online i telefonicky</li>
+      </ul>
+    </div>
+    <div class="mosaic reveal" style="transition-delay:.1s">
+      <a class="m1" href="#atmosfera"><img src="images/interior-hero.jpg" alt="Interiér kavárny" loading="lazy" /></a>
+      <a class="m2" href="#nabidka"><img src="images/srdicka-tartaletky.jpg" alt="Srdíčkové tartaletky" loading="lazy" /></a>
+      <a class="m3" href="#nabidka"><img src="images/lesni-ovoce-pohar.jpg" alt="Dezert s lesním ovocem" loading="lazy" /></a>
+    </div>
+  </div>
+</section>
+
+<section class="atmosphere" id="atmosfera">
+  <div class="wrap atmo-grid">
+    <div class="atmo-frame reveal">
+      <div class="arch-frame">
+        <img src="images/interior-hero.jpg" alt="Útulný interiér Kavárny Nebeské s růžemi na stolech a květinovým sedacím koutkem" loading="lazy" />
+      </div>
+    </div>
+    <div class="atmo-copy reveal" style="transition-delay:.1s">
+      <span class="eyebrow">Atmosféra</span>
+      <h2>Bílé stěny, čerstvé růže na stole a víc klidu, než byste čekali.</h2>
+      <p>Vintage dřevěný nábytek, květinové sedačky a na každém stole
+      čerstvé květiny — u nás si klidně sedněte s dětmi, s kočárkem
+      nebo se psem pod stolem, nikomu to nevadí.</p>
+      <p>Velká okna do centra Roudnice, měkké polštáře k sezení a obsluha,
+      která si s vámi ráda popovídá, i když zrovna nemusíte.</p>
+      <div class="wreath">
+        <span class="leaf-tag"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3c-3.5 3-5 5.5-5 9a5 5 0 0 0 10 0c0-3.5-1.5-6-5-9Z" stroke="currentColor" stroke-width="1.6"/></svg>Květinový interiér</span>
+        <span class="leaf-tag"><svg viewBox="0 0 24 24" fill="none"><path d="M6 10h12v9a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-9Z" stroke="currentColor" stroke-width="1.6"/><path d="M9 10V7a3 3 0 0 1 6 0v3" stroke="currentColor" stroke-width="1.6"/></svg>Čepované pivo</span>
+      </div>
+      <p class="note">Slavíte narozeniny, křtiny nebo svatbu? Upečeme vám dort
+      přesně podle přání — stačí zavolat a domluvit se předem.</p>
+    </div>
+  </div>
+</section>
+
+<div class="wave to-raised"><svg viewBox="0 0 1200 60" preserveAspectRatio="none"><path d="M0,30 C200,2 400,58 600,30 C800,2 1000,58 1200,30 L1200,60 L0,60 Z"/></svg></div>
+
+<section class="reviews" id="recenze">
+  <div class="wrap">
+    <div class="reviews-head reveal">
+      <h2>Co o nás říkají hosté</h2>
+      <div class="rating-badges">
+        <span class="rating-badge"><b>4,6★</b> Google · 87 recenzí</span>
+        <span class="rating-badge"><b>4,6★</b> Slevomat.cz · 11 recenzí</span>
+      </div>
+    </div>
+    <div class="review-grid">
+      <div class="review-card reveal" style="transition-delay:.05s">
+        <span class="quote-mark"><svg viewBox="0 0 24 24" fill="none"><path d="M7 10c0-3 2-5 5-5M7 10v6a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2H8" stroke="currentColor" stroke-width="1.6"/><path d="M15 10c0-3 2-5 5-5M15 10v6a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2h-2" stroke="currentColor" stroke-width="1.6"/></svg></span>
+        <span class="stars">★★★★★</span>
+        <p>„Byla jsem dnes u vás s kamarádkou. Moc jsme si užily příjemnou
+        atmosféru. Výbornou kávu a skvělé zákusky.“</p>
+        <span class="who">Magdalena Stanková · Google</span>
+      </div>
+      <div class="review-card reveal" style="transition-delay:.1s">
+        <span class="quote-mark"><svg viewBox="0 0 24 24" fill="none"><path d="M7 10c0-3 2-5 5-5M7 10v6a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2H8" stroke="currentColor" stroke-width="1.6"/><path d="M15 10c0-3 2-5 5-5M15 10v6a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2h-2" stroke="currentColor" stroke-width="1.6"/></svg></span>
+        <span class="stars">★★★★★</span>
+        <p>„Vymazlený interiér kavárny, výborná káva i limonády, příjemná
+        obsluha a pes není překážkou.“</p>
+        <span class="who">pd · Google</span>
+      </div>
+      <div class="review-card reveal" style="transition-delay:.15s">
+        <span class="quote-mark"><svg viewBox="0 0 24 24" fill="none"><path d="M7 10c0-3 2-5 5-5M7 10v6a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2H8" stroke="currentColor" stroke-width="1.6"/><path d="M15 10c0-3 2-5 5-5M15 10v6a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2h-2" stroke="currentColor" stroke-width="1.6"/></svg></span>
+        <span class="stars">★★★★★</span>
+        <p>„Dobrá káva, výborný karamelový dortík a skvělá jahodová
+        limonáda. To vše v příjemném prostředí s usměvavou obsluhou.“</p>
+        <span class="who">Lenka Daňková</span>
+      </div>
+      <div class="review-card reveal" style="transition-delay:.2s">
+        <span class="quote-mark"><svg viewBox="0 0 24 24" fill="none"><path d="M7 10c0-3 2-5 5-5M7 10v6a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2H8" stroke="currentColor" stroke-width="1.6"/><path d="M15 10c0-3 2-5 5-5M15 10v6a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2h-2" stroke="currentColor" stroke-width="1.6"/></svg></span>
+        <span class="stars">★★★★★</span>
+        <p>„Hezká kavárna, interiérem spíš pro ženy, milá obsluha. Slaná
+        palačinka 5 z 10 — trochu divočina přes poledne, když jdou
+        děti ze školy naproti.“</p>
+        <span class="who">Petr Hurda · Google</span>
+      </div>
+    </div>
+    <p class="review-cta reveal" style="transition-delay:.25s">
+      Nevybíráme si jen ty nejhezčí věty — recenze bereme takové, jaké jsou.
+      Byli jste u nás? Budeme rádi za pár slov —
+      <a href="https://www.google.com/search?q=Kav%C3%A1rna+Nebesk%C3%A1+Roudnice+nad+Labem+recenze" target="_blank" rel="noopener">napsat recenzi na Googlu</a>.
+    </p>
+  </div>
+</section>
+
+<div class="wave to-surface"><svg viewBox="0 0 1200 60" preserveAspectRatio="none"><path d="M0,30 C200,58 400,2 600,30 C800,58 1000,2 1200,30 L1200,60 L0,60 Z"/></svg></div>
+
+<section class="contact" id="kontakt">
+  <div class="wrap contact-grid">
+    <div class="contact-copy reveal">
+      <span class="eyebrow sage">Kontakt</span>
+      <h2>Najdete nás přímo v centru Roudnice nad Labem.</h2>
+      <div class="contact-list">
+        <div class="row">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 22s7-7.1 7-12.5A7 7 0 0 0 5 9.5C5 14.9 12 22 12 22z" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="9.5" r="2.5" stroke="currentColor" stroke-width="1.6"/></svg>
+          <span>Karla Jeřábka 1428<br/>413 01 Roudnice nad Labem<br/>
+          <a href="https://www.google.com/maps/dir/?api=1&destination=50.4229467,14.2542818" target="_blank" rel="noopener">Zobrazit na mapě →</a></span>
+        </div>
+        <div class="row">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 5c0 8.3 6.7 15 15 15l2-4-5-2-2 2c-2-1-4-3-5-5l2-2-2-5-4 1z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          <span><a href="tel:+420607759870">+420 607 759 870</a></span>
+        </div>
+        <div class="row">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="m4 7 8 6 8-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><a href="mailto:kavarnanebeska@seznam.cz">kavarnanebeska@seznam.cz</a></span>
+        </div>
+        <div class="row">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          <span><a href="https://www.instagram.com/kavarna_nebeska/" target="_blank" rel="noopener">@kavarna_nebeska</a> · <a href="https://www.facebook.com/kavarnanebeska/" target="_blank" rel="noopener">Facebook</a></span>
+        </div>
+      </div>
+      <div class="map-embed">
+        <iframe
+          src="https://www.google.com/maps?q=50.4229467,14.2542818&z=17&output=embed"
+          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Mapa — Kavárna Nebeská, Karla Jeřábka 1428, Roudnice nad Labem"></iframe>
+      </div>
+    </div>
+    <div class="hours-card reveal" style="transition-delay:.1s; margin-top:36px;">
+      <div class="hours-photo"><img src="images/interior-hero.jpg" alt="Interiér Kavárny Nebeské" loading="lazy" /></div>
+      <h3>Otevírací doba</h3>
+      <div class="hours-list" id="hoursList">
+        <div class="hours-row" data-day="1"><span>Pondělí</span><span>7:45–18:00</span></div>
+        <div class="hours-row" data-day="2"><span>Úterý</span><span>7:45–18:00</span></div>
+        <div class="hours-row" data-day="3"><span>Středa</span><span>7:45–18:00</span></div>
+        <div class="hours-row" data-day="4"><span>Čtvrtek</span><span>7:45–18:00</span></div>
+        <div class="hours-row" data-day="5"><span>Pátek</span><span>7:45–18:00</span></div>
+        <div class="hours-row" data-day="6"><span>Sobota</span><span>9:00–18:00</span></div>
+        <div class="hours-row" data-day="0"><span>Neděle</span><span class="closed">Zavřeno</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="floral-strip"></div>
+  <div class="footer-inner">
+    <a class="brand" href="#top">
+      <img src="images/logo.jpg" alt="Kavárna Nebeská" style="width:30px;height:30px;" />
+      <span>Kavárna Nebeská</span>
+    </a>
+    <nav>
+      <a href="tel:+420607759870">607 759 870</a>
+      <a href="https://www.instagram.com/kavarna_nebeska/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.facebook.com/kavarnanebeska/" target="_blank" rel="noopener">Facebook</a>
+    </nav>
+    <span>© 2026 Kavárna Nebeská · Karla Jeřábka 1428, Roudnice nad Labem</span>
+  </div>
+</footer>
+
+<nav class="mobile-bar" aria-label="Rychlé akce">
+  <a href="tel:+420607759870" class="primary">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 5c0 8.3 6.7 15 15 15l2-4-5-2-2 2c-2-1-4-3-5-5l2-2-2-5-4 1z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+    Volat
+  </a>
+  <a href="https://www.google.com/maps/dir/?api=1&destination=50.4229467,14.2542818" target="_blank" rel="noopener">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 22s7-7.1 7-12.5A7 7 0 0 0 5 9.5C5 14.9 12 22 12 22z" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="9.5" r="2.5" stroke="currentColor" stroke-width="1.8"/></svg>
+    Navigovat
+  </a>
+  <a href="https://www.instagram.com/kavarna_nebeska/" target="_blank" rel="noopener">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+    Instagram
+  </a>
+</nav>
+
+<button class="back-to-top" id="backToTop" type="button" aria-label="Zpět nahoru">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<!-- Vanilla-JS port of the InfiniteSpiral component (react-bits.dev) — no React/build step on this site -->
+<script>
+  function createInfiniteSpiral(root, items, opts){
+    opts = opts || {};
+    if(!root || !items || !items.length) return function(){};
+
+    function clamp(v,min,max){ return Math.min(Math.max(v,min),max); }
+    function modulo(v,d){ return ((v % d) + d) % d; }
+    function smoothstep(min,max,value){ var x = clamp((value-min)/(max-min||1),0,1); return x*x*(3-2*x); }
+
+    var speed = opts.speed != null ? opts.speed : 0.55;
+    var direction = opts.direction || 'up';
+    var animationMode = opts.animationMode || 'auto';
+    var radius = opts.radius != null ? opts.radius : 170;
+    var cardWidth = opts.cardWidth != null ? opts.cardWidth : 100;
+    var cardHeight = opts.cardHeight != null ? opts.cardHeight : 100;
+    var verticalSpacing = opts.verticalSpacing != null ? opts.verticalSpacing : 60;
+    var perspective = opts.perspective != null ? opts.perspective : 1000;
+    var cardsPerTurn = opts.cardsPerTurn != null ? opts.cardsPerTurn : 7;
+    var rotation = opts.rotation != null ? opts.rotation : 0;
+    var cardTilt = opts.cardTilt != null ? opts.cardTilt : 0;
+    var cardRadius = opts.cardRadius != null ? opts.cardRadius : 10;
+    var centerScale = opts.centerScale != null ? opts.centerScale : 1.2;
+    var edgeFade = opts.edgeFade != null ? opts.edgeFade : 0.3;
+    var edgeBlur = opts.edgeBlur != null ? opts.edgeBlur : 6;
+    var pauseOnHover = opts.pauseOnHover !== false;
+    var imageFit = opts.imageFit || 'cover';
+    var grayscale = opts.grayscale != null ? opts.grayscale : 0;
+    var dragEnabled = animationMode === 'drag' || animationMode === 'all';
+
+    root.classList.add('infinite-spiral');
+    root.style.perspective = perspective + 'px';
+    root.style.setProperty('--infinite-spiral-card-width', cardWidth + 'px');
+    root.style.setProperty('--infinite-spiral-card-height', cardHeight + 'px');
+    root.style.setProperty('--infinite-spiral-card-radius', cardRadius + 'px');
+    root.style.cursor = dragEnabled ? 'grab' : 'default';
+    root.style.touchAction = dragEnabled ? 'pan-x' : 'auto';
+    root.style.userSelect = dragEnabled ? 'none' : 'auto';
+
+    var stage = document.createElement('div');
+    stage.className = 'infinite-spiral__stage';
+    stage.setAttribute('role', 'list');
+    stage.setAttribute('aria-label', 'Galerie Kavárny Nebeské');
+    root.appendChild(stage);
+
+    var cards = items.map(function(item, index){
+      var card = document.createElement(item.href ? 'a' : 'div');
+      card.className = 'infinite-spiral__item';
+      card.style.width = cardWidth + 'px';
+      card.style.height = cardHeight + 'px';
+      card.style.borderRadius = cardRadius + 'px';
+      if(item.href){
+        card.href = item.href;
+        if(item.target){ card.target = item.target; if(item.target === '_blank'){ card.rel = 'noreferrer'; } }
+      }
+      card.setAttribute('role', 'listitem');
+      card.setAttribute('aria-label', item.label || item.alt || ('Fotka ' + (index + 1)));
+      var img = document.createElement('img');
+      img.className = 'infinite-spiral__image';
+      img.src = item.src;
+      img.alt = item.alt || '';
+      img.loading = index < 6 ? 'eager' : 'lazy';
+      img.draggable = false;
+      img.style.width = cardWidth + 'px';
+      img.style.height = cardHeight + 'px';
+      img.style.objectFit = imageFit;
+      img.style.filter = 'grayscale(' + Math.min(1, Math.max(0, grayscale)) + ')';
+      card.appendChild(img);
+      stage.appendChild(card);
+      return card;
+    });
+
+    var progress = 0, targetProgress = 0, autoSpeed = 0;
+    var hovered = false, visible = true, dragging = false, lastPointerY = 0, dragMoved = false;
+    var bounds = root.getBoundingClientRect();
+    var reducedMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+    var scrollEnabled = animationMode === 'scroll' || animationMode === 'all';
+    var scrollSpeedMultiplier = Math.max(speed, 0) / 0.55;
+    var lastScrollY = window.scrollY;
+
+    var resizeObserver = new ResizeObserver(function(){ bounds = root.getBoundingClientRect(); });
+    resizeObserver.observe(root);
+
+    var intersectionObserver = new IntersectionObserver(function(entries){ visible = entries[0].isIntersecting; }, { threshold: 0.02 });
+    intersectionObserver.observe(root);
+
+    function handleScroll(){
+      var nextScrollY = window.scrollY;
+      var scrollDelta = nextScrollY - lastScrollY;
+      lastScrollY = nextScrollY;
+      if(!scrollEnabled || !visible || scrollDelta === 0) return;
+      targetProgress += clamp((scrollDelta * scrollSpeedMultiplier) / Math.max(verticalSpacing * 2, 1), -1.5, 1.5);
+    }
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    function stopDragging(e){
+      if(!dragging) return;
+      dragging = false;
+      if(root.hasPointerCapture(e.pointerId)) root.releasePointerCapture(e.pointerId);
+      root.style.cursor = dragEnabled ? 'grab' : 'default';
+    }
+    if(dragEnabled){
+      root.addEventListener('pointerdown', function(e){
+        if(e.button !== 0) return;
+        dragging = true; dragMoved = false; lastPointerY = e.clientY;
+        targetProgress = progress;
+        root.setPointerCapture(e.pointerId);
+        root.style.cursor = 'grabbing';
+      });
+      root.addEventListener('pointermove', function(e){
+        if(!dragging) return;
+        var pointerDelta = e.clientY - lastPointerY;
+        lastPointerY = e.clientY;
+        if(Math.abs(pointerDelta) > 0.5) dragMoved = true;
+        targetProgress -= pointerDelta / Math.max(verticalSpacing, 1);
+      });
+      root.addEventListener('pointerup', stopDragging);
+      root.addEventListener('pointercancel', stopDragging);
+      root.addEventListener('click', function(e){
+        if(!dragMoved) return;
+        e.preventDefault(); e.stopPropagation(); dragMoved = false;
+      }, true);
+    }
+
+    root.addEventListener('mouseenter', function(){ hovered = true; });
+    root.addEventListener('mouseleave', function(){ hovered = false; });
+
+    var previousTime = performance.now();
+    var frameId;
+    function render(time){
+      var delta = Math.min((time - previousTime) / 1000, 0.05);
+      previousTime = time;
+      var autoEnabled = animationMode === 'auto' || animationMode === 'all';
+      var motionPaused = dragging || (pauseOnHover && hovered);
+      var directionMultiplier = direction === 'down' ? -1 : 1;
+      var desiredAutoSpeed = (autoEnabled && visible && !reducedMotionQuery.matches && !motionPaused) ? speed * directionMultiplier : 0;
+      var speedBlend = 1 - Math.exp(-delta * 7);
+      autoSpeed += (desiredAutoSpeed - autoSpeed) * speedBlend;
+      targetProgress += autoSpeed * delta;
+      var followBlend = 1 - Math.exp(-delta * (dragging ? 22 : 11));
+      progress += (targetProgress - progress) * followBlend;
+
+      var count = items.length;
+      var half = count / 2;
+      var width = Math.max(bounds.width, 1);
+      var height = Math.max(bounds.height, 1);
+      var fit = Math.min(1, width / (cardWidth * 2.8), height / (cardHeight * 2.35));
+      var responsiveRadius = Math.min(radius, Math.max(72, width * 0.36)) * fit;
+      var fadeStart = clamp(1 - edgeFade, 0, 0.98);
+      var turnSize = Math.max(cardsPerTurn, 1);
+
+      cards.forEach(function(card, index){
+        var offset = index - progress;
+        offset = modulo(offset + half, count) - half;
+        var edge = Math.min(Math.abs(offset) / Math.max(half, 1), 1);
+        var opacity = 1 - smoothstep(fadeStart, 1, edge);
+        var focus = 1 - Math.min(Math.abs(offset) / Math.max(turnSize * 0.65, 1), 1);
+        var scale = (1 + (centerScale - 1) * focus) * fit;
+        var angle = offset * (360 / turnSize) + rotation;
+        var angleRadians = (angle * Math.PI) / 180;
+        var x = Math.sin(angleRadians) * responsiveRadius;
+        var z = Math.cos(angleRadians) * responsiveRadius;
+        var depthScale = clamp(perspective / Math.max(perspective - z, 1), 0.72, 1.45);
+        var visualScale = scale * depthScale;
+        var depth = (z / Math.max(responsiveRadius, 1) + 1) / 2;
+        var blur = edgeBlur * smoothstep(0.35, 1, edge);
+        card.style.transform = 'translate(-50%, -50%) translate3d(' + x + 'px, ' + (offset * verticalSpacing * fit) + 'px, 0) rotateZ(' + cardTilt + 'deg) scale(' + visualScale + ')';
+        card.style.opacity = opacity.toFixed(3);
+        card.style.filter = blur > 0.01 ? ('blur(' + blur.toFixed(2) + 'px)') : 'none';
+        card.style.zIndex = String(Math.round(depth * 100000) + index);
+        card.style.pointerEvents = opacity > 0.25 ? 'auto' : 'none';
+      });
+
+      frameId = requestAnimationFrame(render);
+    }
+    frameId = requestAnimationFrame(render);
+
+    return function destroy(){
+      cancelAnimationFrame(frameId);
+      resizeObserver.disconnect();
+      intersectionObserver.disconnect();
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }
+
+  (function(){
+    var spiralRoot = document.getElementById('spiralGallery');
+    if(!spiralRoot) return;
+    createInfiniteSpiral(spiralRoot, [
+      { src:'images/interior-hero.jpg', alt:'Interiér Kavárny Nebeské' },
+      { src:'images/ruzove-koblihy.jpg', alt:'Růžově glazované koblihy' },
+      { src:'images/trubicky-tacek.jpg', alt:'Domácí trubičky' },
+      { src:'images/srdicka-tartaletky.jpg', alt:'Srdíčkové tartaletky' },
+      { src:'images/jahodovy-pohar.jpg', alt:'Ovocné poháry' },
+      { src:'images/ovocne-kosicky.jpg', alt:'Ovocné košíčky' },
+      { src:'images/dezerty-koblihy-mix.jpg', alt:'Výběr domácích zákusků' },
+      { src:'images/lesni-ovoce-pohar.jpg', alt:'Dezert s lesním ovocem' },
+      { src:'images/trubicky.jpg', alt:'Čerstvě upečené trubičky' }
+    ], {
+      animationMode: 'all',
+      speed: 0.4,
+      direction: 'up',
+      radius: 170,
+      cardWidth: 112,
+      cardHeight: 112,
+      verticalSpacing: 44,
+      perspective: 1000,
+      cardsPerTurn: 8,
+      cardRadius: 12,
+      centerScale: 1.25,
+      edgeFade: 0.3,
+      edgeBlur: 5,
+      pauseOnHover: true
+    });
+  })();
+</script>
+
+<script>
+  (function(){
+    var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var revealEls = document.querySelectorAll('.reveal:not(.in-view)');
+    if(!('IntersectionObserver' in window) || reduced){
+      revealEls.forEach(function(r){ r.classList.add('in-view'); });
+    } else {
+      var io = new IntersectionObserver(function(entries){
+        entries.forEach(function(entry){
+          if(entry.isIntersecting){ entry.target.classList.add('in-view'); io.unobserve(entry.target); }
+        });
+      }, { threshold:0.16 });
+      revealEls.forEach(function(r){ io.observe(r); });
+    }
+
+    var topbar = document.getElementById('topbar');
+    var backToTop = document.getElementById('backToTop');
+    window.addEventListener('scroll', function(){
+      topbar.classList.toggle('scrolled', window.scrollY > 8);
+      if(backToTop){ backToTop.classList.toggle('visible', window.scrollY > 700); }
+    }, { passive:true });
+    if(backToTop){
+      backToTop.addEventListener('click', function(){
+        window.scrollTo({ top:0, behavior: reduced ? 'auto' : 'smooth' });
+      });
+    }
+
+    var now = new Date();
+    var day = now.getDay();
+    var hour = now.getHours() + now.getMinutes()/60;
+    var isOpen = (day >= 1 && day <= 5 && hour >= 7.75 && hour < 18) ||
+                 (day === 6 && hour >= 9 && hour < 18);
+    var stateClass = isOpen ? 'open' : 'closed';
+    var label = isOpen ? 'Právě otevřeno' : 'Právě zavřeno';
+
+    [['statusBadge','statusText'], ['heroStatusBadge','heroStatusText']].forEach(function(pair){
+      var badge = document.getElementById(pair[0]);
+      var text = document.getElementById(pair[1]);
+      if(badge){ badge.classList.add(stateClass); }
+      if(text){ text.textContent = label; }
+    });
+
+    var todayRow = document.querySelector('.hours-row[data-day="' + day + '"]');
+    if(todayRow){ todayRow.classList.add('today'); }
+
+    (function loadWeather(){
+      var pill = document.getElementById('weatherPill');
+      var iconEl = document.getElementById('weatherIcon');
+      var textEl = document.getElementById('weatherText');
+      if(!pill) return;
+      var RAIN_CODES = [51,53,55,56,57,61,63,65,66,67,71,73,75,77,80,81,82,85,86,95,96,99];
+      function classify(code, temp){
+        var isRain = RAIN_CODES.indexOf(code) !== -1;
+        var isClear = code === 0 || code === 1 || code === 2;
+        if(!isRain && isClear && temp >= 17){ return { icon:'☀️', text: Math.round(temp) + '°C · ideální na zahrádku' }; }
+        if(!isRain && temp >= 12){ return { icon:'🌤️', text: Math.round(temp) + '°C · na zahrádce je príma' }; }
+        if(isRain){ return { icon:'🌧️', text: Math.round(temp) + '°C · dnes spíš dovnitř' }; }
+        return { icon:'🧥', text: Math.round(temp) + '°C · vezměte si bundu' };
+      }
+      fetch('https://api.open-meteo.com/v1/forecast?latitude=50.4229&longitude=14.2543&current=temperature_2m,weather_code&timezone=Europe%2FPrague')
+        .then(function(r){ return r.ok ? r.json() : Promise.reject(r.status); })
+        .then(function(data){
+          var cur = data && data.current;
+          if(!cur || typeof cur.temperature_2m !== 'number') return;
+          var info = classify(cur.weather_code, cur.temperature_2m);
+          iconEl.textContent = info.icon;
+          textEl.textContent = info.text;
+          pill.hidden = false;
+        })
+        .catch(function(){});
+    })();
+  })();
+</script>
+
+</body>
+</html>
